@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <windows.h>
-#include "test.h"
+#include "colour.h"
 
 void resetColour()
 {
@@ -59,7 +59,7 @@ int generateNumber(int limit)
 
 int main()
 {
-    printf("%d", addTest(3,2));
+    printf("%d", getColour("Red"));
     //printf("Hi there !\n");
     //printf("\033[0;31mMy Magic number is %d\n\033[0m", generateNumber(100));
     //testColour();

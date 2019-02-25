@@ -1,1 +1,0 @@
-int addTest(int a, int b); // this tells the compiler that there is a function defined and the linker will sort the right adress to call out.

@@ -2,7 +2,7 @@
 
 echo Building Program...
 
-gcc src/index.c src/test.c -o dist/index.exe
+gcc src/index.c src/colour.c -o dist/index.exe
 
 echo Finished Building.
 
