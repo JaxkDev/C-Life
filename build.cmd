@@ -2,7 +2,7 @@
 
 echo Starting compiler...
 
-gcc index.c -o dist/index.exe
+gcc src/index.c src/test.c -o dist/index.exe
 
 echo Finished Compiler.
 
