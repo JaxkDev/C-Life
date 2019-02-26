@@ -59,9 +59,11 @@ int generateNumber(int limit)
 
 int main()
 {
+    printf("Starting program.");
     printf("%d", getColour("Red"));
     //printf("Hi there !\n");
     //printf("\033[0;31mMy Magic number is %d\n\033[0m", generateNumber(100));
     //testColour();
+    printf("Program ended."); //used for debugging in travis
     return 0;
 }
