@@ -3,4 +3,4 @@ sudo: false # only for faster builds
 os: windows
 script:
   - gcc src/index.c src/colour.c -o final.exe
-  - ./final
+  - final.exe
