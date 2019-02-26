@@ -1,7 +1,5 @@
 language: c
-sudo: false # only for faster builds
+sudo: false
 os: windows
 script:
-  - gcc src/index.c src/colour.c -o final.exe
-  - ls
-  - ./final.exe
+  - auto.cmd

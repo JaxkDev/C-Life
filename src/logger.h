@@ -1,0 +1,1 @@
+void logM(char *msg, int level);

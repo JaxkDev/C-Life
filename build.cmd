@@ -2,8 +2,8 @@
 
 echo Starting compiler...
 
-gcc src/index.c src/colour.c -o dist/index.exe
+gcc src/*.c -o dist/final.exe
 
-echo Finished Compiler.
+echo Finished Compiling.
 
 pause

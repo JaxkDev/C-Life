@@ -1,16 +1,13 @@
 @echo off
 
+if NOT exist dist mkdir dist
+
 echo Building Program...
 
-gcc src/index.c src/colour.c -o dist/index.exe
+gcc src/*.c -o dist/final.exe
 
 echo Finished Building.
 
 echo -- Starting program --
 
-cd dist
-index.exe
-
-echo -- End --
-
-pause
+start run.cmd
