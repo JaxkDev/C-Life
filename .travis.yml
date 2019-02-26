@@ -4,4 +4,4 @@ os: windows
 script:
   - gcc src/index.c src/colour.c -o final.exe
   - ls
-  - final.exe
+  - ./final.exe
