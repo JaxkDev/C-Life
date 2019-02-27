@@ -23,7 +23,7 @@ void logM(char msg[], int level){
     strcpy(levels[4], "Critical");
     sprintf(fileV, "[%02d:%02d:%02d] [System/%s]: %s\n", tmp->tm_hour, tmp->tm_min, tmp->tm_sec , levels[level], msg);
     if(level != 0){
-        printf("[System/%s] : %s\n",levels[level], msg);
+        printf("%s\n", msg);
     }
     writeToFile(fileV);
 }

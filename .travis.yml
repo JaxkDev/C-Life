@@ -3,3 +3,4 @@ sudo: false
 os: windows
 script:
   - ./travis.cmd
+  - ./final.exe
