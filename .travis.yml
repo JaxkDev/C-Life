@@ -2,4 +2,4 @@ language: c
 sudo: false
 os: windows
 script:
-  - auto.cmd
+  - ./auto.cmd

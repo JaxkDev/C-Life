@@ -1,6 +1,5 @@
 @echo off
 cd dist
-final.exe
+final
 cd ..
-del /F /Q dist
 pause
