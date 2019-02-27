@@ -9,4 +9,4 @@ echo Finished Building.
 echo -- Starting program --
 
 cd dist
-final
+./final
