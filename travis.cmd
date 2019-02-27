@@ -2,11 +2,11 @@
 
 echo Building Program...
 
-gcc src/*.c -o dist/final
+gcc src/*.c -o dist/final.exe
 
 echo Finished Building.
 
 echo -- Starting program --
 
 cd dist
-./final
+final.exe
