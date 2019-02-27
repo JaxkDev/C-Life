@@ -8,4 +8,5 @@ echo Finished Building.
 
 echo -- Starting program --
 
-./run.cmd
+cd dist
+final
