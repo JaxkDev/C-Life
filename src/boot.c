@@ -1,10 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "logger.h"
-
-char getLatestNames(){
-    
-}
+#include "generators/nameGen.h"
 
 int start(){
     logM("Booting software.",0);
@@ -14,7 +11,14 @@ int start(){
 
     //Get the names:
 
-    getLatestNames();
+    char* fName = generateFirstName(0);
+    char* lName = generateLastName();
+    printf("Male: %s %s\n",fName,lName);
+
+    fName = generateFirstName(1);
+    lName = generateLastName();
+    printf("Female: %s %s\n",fName,lName);
+
 
     ////////////////
 

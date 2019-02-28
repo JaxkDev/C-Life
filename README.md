@@ -6,4 +6,4 @@ Their life in your hands how will you play with it...
 
 ### Credits:
  - Jackthehack21 (aka Jaxk) [Founder/Developer]
- - cs.cmu.edu (https://www.cs.cmu.edu) [Names List]
+ - cs.cmu.edu (https://www.cs.cmu.edu) [first name list over 8000 in total]

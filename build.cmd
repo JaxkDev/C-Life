@@ -2,7 +2,7 @@
 
 echo Starting compiler...
 
-gcc src/*.c -o dist/final.exe
+gcc src/*.c src/generators/*.c -o dist/final
 
 echo Finished Compiling.
 

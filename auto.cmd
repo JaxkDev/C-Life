@@ -5,7 +5,7 @@ if NOT exist dist mkdir dist
 
 echo Building Program...
 
-gcc src/*.c -o dist/final
+gcc src/*.c src/generators/*.c -o dist/final
 
 echo Finished Building.
 
