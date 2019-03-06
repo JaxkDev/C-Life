@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 #include "logger.h"
 #include "generators/nameGen.h"
 
@@ -14,9 +15,7 @@ int start(){
 
     //Get the names:
     
-    int genderD = rand() % 2;
-    
-    bool gender = genderD == 1 ? 0 : 1;
+    int gender = rand() % 2;
     
     printf("Gender: %s",gender);
 
